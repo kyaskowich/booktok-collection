@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/6936382/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Anna and the French Kiss (Anna and the French Kiss #1)"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Stephanie Perkins"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/6936382/ee8cdfe8e55d59685a1d128c71de9365/full/194,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 194
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/6936382/canvas/1",
+            "type": "Canvas",
+            "height": 463,
+            "width": 300,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/6936382/ee8cdfe8e55d59685a1d128c71de9365/full/194,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 194
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/6936382/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/6936382/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/6936382/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/6936382/ee8cdfe8e55d59685a1d128c71de9365/full/300,463/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 463,
+                                "width": 300,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/6936382/ee8cdfe8e55d59685a1d128c71de9365",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
