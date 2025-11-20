@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/18221931/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Carter Reed (Carter Reed #1)"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Tijan"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/18221931/b9cce91891a43710f368ee26df75fb2e/full/187,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 187
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/18221931/canvas/1",
+            "type": "Canvas",
+            "height": 500,
+            "width": 312,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/18221931/b9cce91891a43710f368ee26df75fb2e/full/187,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 187
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/18221931/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/18221931/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/18221931/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/18221931/b9cce91891a43710f368ee26df75fb2e/full/312,500/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 500,
+                                "width": 312,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/18221931/b9cce91891a43710f368ee26df75fb2e",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
