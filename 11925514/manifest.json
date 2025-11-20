@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/11925514/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Code Name Verity (Code Name Verity, #1)"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Elizabeth Wein"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/11925514/315e6b53b95c767f0227d3db7e1b3c1e/full/195,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 195
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/11925514/canvas/1",
+            "type": "Canvas",
+            "height": 278,
+            "width": 181,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/11925514/315e6b53b95c767f0227d3db7e1b3c1e/full/195,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 195
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/11925514/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/11925514/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/11925514/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/11925514/315e6b53b95c767f0227d3db7e1b3c1e/full/181,278/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 278,
+                                "width": 181,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/11925514/315e6b53b95c767f0227d3db7e1b3c1e",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
