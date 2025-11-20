@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/19161835/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Confessions"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Kanae Minato"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/19161835/32ee22d552d25f06c75188f3c83357b8/full/200,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 200
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/19161835/canvas/1",
+            "type": "Canvas",
+            "height": 400,
+            "width": 267,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/19161835/32ee22d552d25f06c75188f3c83357b8/full/200,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 200
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/19161835/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/19161835/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/19161835/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/19161835/32ee22d552d25f06c75188f3c83357b8/full/267,400/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 400,
+                                "width": 267,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/19161835/32ee22d552d25f06c75188f3c83357b8",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
