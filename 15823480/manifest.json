@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/15823480/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "Anna Karenina"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Leo Tolstoy"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/15823480/95744a172ccd38f745022900857bfc4b/full/220,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 220
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/15823480/canvas/1",
+            "type": "Canvas",
+            "height": 445,
+            "width": 326,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/15823480/95744a172ccd38f745022900857bfc4b/full/220,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 220
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/15823480/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/15823480/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/15823480/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/15823480/95744a172ccd38f745022900857bfc4b/full/326,445/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 445,
+                                "width": 326,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/15823480/95744a172ccd38f745022900857bfc4b",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

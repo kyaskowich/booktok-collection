@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/16096824/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "A Court of Thorns and Roses (A Court of Thorns and Roses, #1)"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Sarah J. Maas"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/16096824/4652338f67f48dcdfccf33c718cfe8a1/full/197,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 197
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/16096824/canvas/1",
+            "type": "Canvas",
+            "height": 632,
+            "width": 416,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/16096824/4652338f67f48dcdfccf33c718cfe8a1/full/197,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 197
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/16096824/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/16096824/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/16096824/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/16096824/4652338f67f48dcdfccf33c718cfe8a1/full/416,632/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 632,
+                                "width": 416,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/16096824/4652338f67f48dcdfccf33c718cfe8a1",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
