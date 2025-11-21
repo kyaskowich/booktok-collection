@@ -1,0 +1,83 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kyaskowich.github.io/booktok-collection/23513349/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "milk and honey"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Rupi Kaur"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/23513349/f187e8f6f1bf9f8b1024f2716f031ac9/full/192,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 192
+        }
+    ],
+    "items": [
+        {
+            "id": "https://kyaskowich.github.io/booktok-collection/23513349/canvas/1",
+            "type": "Canvas",
+            "height": 360,
+            "width": 230,
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/23513349/f187e8f6f1bf9f8b1024f2716f031ac9/full/192,300/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 192
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://kyaskowich.github.io/booktok-collection/23513349/canvas/1/annopage-1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://kyaskowich.github.io/booktok-collection/23513349/canvas/1/annopage-1/anno-1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://kyaskowich.github.io/booktok-collection/23513349/canvas/1",
+                            "body": {
+                                "id": "https://kyaskowich.github.io/booktok-collection/23513349/f187e8f6f1bf9f8b1024f2716f031ac9/full/230,360/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 360,
+                                "width": 230,
+                                "service": [
+                                    {
+                                        "id": "https://kyaskowich.github.io/booktok-collection/23513349/f187e8f6f1bf9f8b1024f2716f031ac9",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
